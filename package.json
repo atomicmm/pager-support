@@ -1,6 +1,6 @@
 {
   "name": "pager-support",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a simple pager library,spring like,with handlebars helper and render bootstrap style paganation",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,11 @@
   "homepage": "https://github.com/atomicmm/pager-support#readme",
   "devDependencies": {
     "bootstrap": "^3.3.6",
-    "handlebars": "^4.0.5"
+    "chai": "^3.5.0",
+    "handlebars": "^4.0.5",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "lodash": "^4.12.0"
   }
 }
