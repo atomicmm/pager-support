@@ -13,6 +13,13 @@ describe('pager test', () => {
         assert.isTrue(pager.isFirst());
         console.log(pager.pages());
 
+        //第一页，每页5条，只有2条记录
+        const pager1 = new Pager([],1,5,2);
+        console.log('pager1=> '+pager1.pages());
+
+        const pager2 = new Pager([],0,5,0);
+        console.log('pager2=> '+pager2.pages());
+
         done();
     });
 });
